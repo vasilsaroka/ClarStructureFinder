@@ -7,7 +7,7 @@
 
 
 # ClarStructureFinder
-Mathematica app for analyzing resonance structures of polycyclic aromatic hydrocarbons
+Wolfram Mathematica graphical user interface (GUI) for building planar polycyclic aromatic hydrocarbons and analyzing their resonance valence bond structures with support of import from and export into .XYZ files
 
 ## Requirements
 The code was developed and tested under
@@ -17,24 +17,26 @@ The code was developed and tested under
 ## Installation
 This repository contains only a notebook with core functions in `.../Core` folder.
 
-The GUI distributed in [releases](https://github.com/vasilsaroka/NanographenesBuilder/releases) does not require installation. It can be run as a regular Mathematica Notebook (.nb), which contains a dynamical content and requires enabling upon the start:
+The GUI distributed in [releases]() does not require installation. It can be run as a regular Mathematica Notebook (.nb), which contains a dynamical content and requires enabling upon the start:
 <p align="center">
-<img align="center" src="https://github.com/vasilsaroka/NanographenesBuilder/blob/main/Demo/Enable_Dynamics_button.png" alt="Enable_Dynamics_button" width="1000"/>
+<img src="https://github.com/vasilsaroka/ClarStructureFinder/blob/main/Demo/Enable_Dynamics.png" alt="Enable_Dynamics_button" width="400"/>
 </p>
 Once dynamical content is enabled, the GUI must be active and responsive out-of-the-box.
 
 ## Demo
-The starting screen of the GUI looks as follows:
+The work with GUI starts from building a planar graph of a hydrocarbon molecule on a canvas by specifying position of atoms with a mouse click anywhere on the canvas. This is the *Building mode* regime:
 <p align="center">
-<img src="" alt="Welcome_screen" width="400"/>
+<img src="https://github.com/vasilsaroka/ClarStructureFinder/blob/main/Demo/ClarStructureFinder_welcome_screen.png" alt="Welcome_screen" width="400"/>
 </p>
 
-The basic use and idea behind are explained in detail in the LinkedIn article [A computational essay on topological frustration and graph theory](https://www.linkedin.com/pulse/computational-essay-topological-frustration-graph-theory-vasil-saroka-epcvf/) and a cross-post on Wolfram Community [Graph-theoretic topological frustration in nanographenes: matchings, deficit, and decomposition](https://community.wolfram.com/groups/-/m/t/3737934). The latter contains the built-in GUI in the relevant section "Wolfram Language app". 
+The built graphs can be analysed in two other regimes: *Gallai-Edmonds' structure* and *Clar's structure*. The idea behind this approach is explained in detail in the LinkedIn article [50 years of Clar's aromatic sextet... and no automation yet?](). 
 
-As a quick start, let us build and analyse an extended Clar's goblet reported in [J. Am. Chem. Soc. **141**, 15488–15493 (2019)](https://doi.org/10.1021/jacs.9b07926):
+As a quick start, let us build and analyse in the *Clar's structure* regime a Kekulene molecule studied in [J. Am. Chem. Soc. **141**, 15488–15493 (2019)](https://doi.org/10.1021/jacs.9b07926):
 <p align="center">
-<img src="https://github.com/vasilsaroka/NanographenesBuilder/blob/main/Demo/NanographenesBuilder_promo.gif" alt="Basic_use" width="400"/>
+<img src="https://github.com/vasilsaroka/ClarStructureFinder/blob/main/Demo/ClarStructureFinder_demo.gif" alt="Clar_Structure_regime" width="400"/>
 </p>
+
+The GUI supports import of carbon skeletons (hydrogens are stripped automatically) from .XYZ structure files straight into the canvas, thereby allowing one to avoid manual building. On the other hand, it is possible to export graphs from the canvas into a .XYZ structure file with automatic hydrogenation of the edges. These two tools can be used interoperably within the GUI.
 
 ## Supporting the project
-   Consider becoming a paying member on this project. This is how I earn a living, as I’m directly user-supported. Moreover, you will get an exclusive content and an early access to new releases. Anyone [making a donation](https://paypal.me/vasilsaroka?locale.x=en_GB) is entitled to request a Mathematica version without watermarks. If you like the free app, you will love the members-only version. Your donations are really appreciated for keeping this project going. 
+Consider becoming a paying user on this project. This is how I earn a living, as I am directly user-supported. Moreover, you will get an exclusive content and an early access to new releases. Anyone [making a donation](https://paypal.me/vasilsaroka?locale.x=en_GB) is entitled to request a version without watermarks. If you like the free app, you will love the paying user-only version. Such donations are really appreciated for keeping this project going. 
