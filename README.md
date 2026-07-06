@@ -19,7 +19,7 @@ This repository contains only a notebook with core functions in `.../Core` folde
 
 The GUI distributed in [releases]() does not require installation. It can be run as a regular Mathematica Notebook (.nb), which contains a dynamical content and requires enabling upon the start:
 <p align="center">
-<img src="https://github.com/vasilsaroka/ClarStructureFinder/blob/main/Demo/Enable_Dynamics.png" alt="Enable_Dynamics_button" width="400"/>
+<img src="https://github.com/vasilsaroka/ClarStructureFinder/blob/main/Demo/Enable_Dynamics.png" alt="Enable_Dynamics_button" width="1000"/>
 </p>
 Once dynamical content is enabled, the GUI must be active and responsive out-of-the-box.
 
