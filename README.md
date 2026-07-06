@@ -7,7 +7,7 @@
 
 
 # ClarStructureFinder
-Wolfram Mathematica graphical user interface (GUI) for building planar polycyclic aromatic hydrocarbons and analyzing their resonance valence bond structures with support of import from and export into .XYZ files
+Wolfram Mathematica graphical user interface (GUI) for building planar polycyclic aromatic hydrocarbons and analyzing their resonance valence bond structures
 
 ## Requirements
 The code was developed and tested under
