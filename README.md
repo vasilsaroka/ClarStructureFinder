@@ -19,7 +19,7 @@ This repository contains only a notebook with core functions in `.../Core` folde
 
 The GUI distributed in [releases]() does not require installation. It can be run as a regular Mathematica Notebook (.nb), which contains a dynamical content and requires enabling upon the start:
 <p align="center">
-<img src="https://github.com/vasilsaroka/ClarStructureFinder/blob/main/Demo/Enable_Dynamics_W15.png" alt="Enable_Dynamics_button" width="200"/>
+<img src="https://github.com/vasilsaroka/ClarStructureFinder/blob/main/Demo/Enable_Dynamics_W15.png" alt="Enable_Dynamics_button" width="250"/>
 </p>
 Once dynamical content is enabled, the GUI must be active and responsive out-of-the-box.
 
@@ -31,7 +31,7 @@ The work with GUI starts from building a planar graph of a hydrocarbon molecule 
 
 The built graphs can be analysed in two other regimes: *Gallai-Edmonds' structure* and *Clar's structure*. The idea behind this approach is explained in detail in the LinkedIn article [50 years of Clar's aromatic sextet... and no automation yet?](https://www.linkedin.com/pulse/50-years-clars-aromatic-sextet-automation-yet-vasil-saroka-ncucc/) that accompanied v1.0.0 release. 
 
-As a quick start, let us build and analyse in the *Clar's structure* regime a Kekulene molecule studied in [J. Am. Chem. Soc. **141**, 15488–15493 (2019)](https://doi.org/10.1021/jacs.9b07926):
+As a quick start, let us build and analyse in the *Clar's structure* regime a Kekulene molecule studied in [J. Am. Chem. Soc. **141**, 15488 (2019)](https://doi.org/10.1021/jacs.9b07926):
 <p align="center">
 <img src="https://github.com/vasilsaroka/ClarStructureFinder/blob/main/Demo/CSF_promo.gif" alt="Clar_Structure_Kekulene" width="500"/>
 </p>
