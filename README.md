@@ -12,7 +12,7 @@ Wolfram Mathematica graphical user interface (GUI) for building planar polycycli
 ## Requirements
 The code was developed and tested under
  - OS: Microsoft Windows 11 Home
- - Mathematica 15.0.1 for Microsoft Windows (64-bit) (July 2, 2026).
+ - v2.0.0 and higher: Mathematica 15.0.1 for Microsoft Windows (64-bit) (July 2, 2026); v2.0.0-chemdraw.beta and below: Mathematica 14.2.1 for Microsoft Windows (64-bit) (March 17, 2025) 
 
 ## Installation
 This repository contains only a notebook with core functions in `.../Core` folder.
