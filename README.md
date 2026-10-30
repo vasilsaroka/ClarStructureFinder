@@ -1,6 +1,6 @@
 [![GitHub (pre-)release](https://img.shields.io/github/release/vasilsaroka/ClarStructureFinder/all.svg)](https://github.com/vasilsaroka/ClarStructureFinder/releases)
 [![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads-pre/vasilsaroka/ClarStructureFinder/latest/total?label=downloads%20latest)](https://github.com/vasilsaroka/ClarStructureFinder/releases)
-[![GitHub Downloads (all assets, specific tag)](https://img.shields.io/github/downloads/vasilsaroka/ClarStructureFinder/v1.0.0/total?label=downloads%20v1.0.0)](https://github.com/vasilsaroka/ClarStructureFinder/releases/tag/v2.0.0)
+[![GitHub Downloads (all assets, specific tag)](https://img.shields.io/github/downloads/vasilsaroka/ClarStructureFinder/v2.0.0/total?label=downloads%20v2.0.0)](https://github.com/vasilsaroka/ClarStructureFinder/releases/tag/v2.0.0)
 [![Github All Releases](https://img.shields.io/github/downloads/vasilsaroka/ClarStructureFinder/total?label=downloads%20all)](https://github.com/vasilsaroka/ClarStructureFinder/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Support TBpack](https://img.shields.io/static/v1?label=support&message=5$&color=green&style=flat&logo=paypal)](https://paypal.me/vasilsaroka?locale.x=en_GB)
