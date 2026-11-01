@@ -45,7 +45,7 @@ Similarly, one can analyze a laterally extended Clar's goblet studied in [Nat. S
 As of v2.0.0. the GUI supports import of carbon skeletons (hydrogens are stripped automatically) from .XYZ, .MOL and .CDXML structure files straight into the canvas, thereby allowing one to avoid manual building. On the other hand, it is possible to export graphs from the canvas into the mentioned structure files with automatic hydrogenation when possible. These two tools can be used interoperably within the GUI.
 
 ### ‼️New 🚀:
-In v3.0.0-kekule we experiment with a new *FKT mode* implemented for counting Kekule resonance structures via Pfaffian orientations of the planar graphs found by [Fisher-Kasteleyn-Temperley algorithm](https://en.wikipedia.org/wiki/FKT_algorithm). This mode is complementary to the above mentioned GE (*Gallai-Edmonds' structure*) and Clar modes.
+In [v3.0.0-kekule](https://github.com/vasilsaroka/ClarStructureFinder/releases/tag/v3.0.0-kekule) we experiment with a new *FKT mode* implemented for counting Kekule resonance structures via Pfaffian orientations of the planar graphs found by [Fisher-Kasteleyn-Temperley algorithm](https://en.wikipedia.org/wiki/FKT_algorithm). This mode is complementary to the above mentioned GE (*Gallai-Edmonds' structure*) and Clar modes.
 
 Here is an intended use of *FKT mode* for analysis of radical structure of the topologically frustrated butterfly molecule from [Nat. Chem. **16**, 938 (2024)](https://doi.org/10.1038/s41557-024-01453-9):
 <p align="center">
